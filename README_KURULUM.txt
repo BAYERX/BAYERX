@@ -13,7 +13,18 @@ PAKET İÇERİĞİ (hepsi aynı klasörde dursun):
   manifest.json       -> "Ana ekrana ekle" (PWA) ayarı
   icon-192.png / icon-512.png -> uygulama ikonu
 
-GİRİŞ ŞİFRESİ: index.html içindeki APP_CONFIG.password (varsayılan BayerX2026)
+GİRİŞ: Ad (kadrodan) + şifre. Şifre index.html içindeki APP_CONFIG.password (varsayılan BayerX2026).
+
+ROLLER & KADRO (admin düzenler):
+  admin   → her şey + "Kullanıcılar" ekranından kadro yönetimi
+  müdür   → bölge (Doğu/Batı) ekip + lider tablosu
+  plasiyer→ kendi satışları
+  servis  → arıza kuyruğu (4-5 kişi)
+  İlk açılışta örnek kadro gelir (Ayhan Yelken = admin). Admin, "Kullanıcılar"dan
+  gerçek isim/rol/bölge ekler. Herkes kendi adıyla + ortak şifreyle girer.
+
+SERVİS/ARIZA: Herkes arıza açar (hastane/cihaz/sorun/öncelik), servis ekibine düşer.
+  Durum: Açık → Atandı → Serviste → Çözüldü → Kapandı (zaman çizelgeli).
 
 ---------------------------------------------------
 A) GITHUB PAGES (ücretsiz, en kolay)
